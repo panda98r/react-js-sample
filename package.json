@@ -38,7 +38,6 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "start": "npm run start-other",
     "start-win": "set NODE_ENV=production&babel-node server",
     "start-other": "export BABEL_ENV=production&&babel-node server",
     "build": "react-scripts build",
